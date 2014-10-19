@@ -5,9 +5,9 @@ puts "Your second variable is: #{second}"
 puts "Your third variable is: #{third}"
 
 print "What is your name?: "
-name = gets.chomp
+name = $stdin.gets.chomp
 
 print "Change first:"
-first = gets.chomp
+first = $stdin.gets.chomp
 
 puts "Hello #{name} #{first}"
